@@ -1,0 +1,31 @@
+.container {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.range-container {
+    margin: 50px 0 50px 0;
+}
+
+.range {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    border: grey solid 0.1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.image {
+    max-width: 70vw;
+    max-height: 70vw;
+    transform: rotate(var(--rotate)) scale(var(--zoom));
+}
